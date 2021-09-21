@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+ }
+ 
+ :root{
+    --main-padding:10px;
+    --icon-bg-color:white;
+    --icon-color:black;
+    --black-primary : #111827;
+    --black-Secondary:#333E4F;
+    --red-Primary:#BA3420;
+    --white-Body:#F7F8Fa;
+ }
+ 
+body{
+    background:var(--white-Body);
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, Sans-Serif;
+    
+  }
+  .container input{
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
+  p{
+    margin: 10px;
+    font-size: 18px;
+    }
